@@ -1,24 +1,39 @@
-# 💸 FinGence - Finance Agentic AI Project
+# 💡 FinSight – Financial Insight through Agentic Intelligence
 
-**FinGence** is a prototype Agentic AI system designed to interact with real-time financial data using multiple coordinated agents. It leverages the [Phidata](https://www.phidata.io/) framework and integrates tools like Groq LLM, YFinance, and DuckDuckGo into a simple Streamlit frontend.
-
----
-
-## 🧠 Purpose
-
-This project was created to explore:
-- How Agentic AI works with tool-use and delegation
-- Real-time financial data retrieval and summarization
-- Building multi-agent workflows using Phidata
-- Streamlit integration for interactive interfaces
+**FinSight** is a multi-agent AI system that delivers real-time financial insights by combining large language models with external data sources. It uses the [Phi SDK](https://phidata.com) to create tool-augmented agents powered by Groq, DuckDuckGo, and YFinance, all accessible via an interactive web-based playground.
 
 ---
 
-## 🛠 Features
+## 🧠 Project Goals
 
-- 📉 Stock price charts for any company (currently **failing due to a bug**, working on a fix)
-- 📰 Recent company news via DuckDuckGo
-- 📊 Fundamentals like market cap, P/E ratio, sector, and industry
-- 🤖 Powered by Groq + YFinance + Agentic memory
+- 🧩 Build intelligent agents with specialized roles (e.g., financial analyst, web researcher)
+- 🔧 Equip agents with real-world tools like YFinance and DuckDuckGo
+- 🤝 Enable multi-agent collaboration and task delegation
+- ⚡ Use Groq-backed LLMs for blazing-fast, high-context interactions
+- 🌐 Serve the system via a minimal, interactive Playground UI
+
+---
+
+## 🚀 Features
+
+- 📊 **Finance Agent**
+  - Summarizes analyst recommendations
+  - Retrieves stock price, market cap, and fundamentals
+  - Displays recent company news
+
+- 🔎 **Web Research Agent**
+  - Performs real-time search using DuckDuckGo
+  - Backs summaries with verifiable sources
+
+- 🤖 **Multi-Agent Composition**
+  - Orchestrates tasks between agents
+  - Transparent tool usage and markdown output
+
+- ⚙️ **LLM-Powered**
+  - Built on Groq’s LLaMA 4-based models via Phi's SDK
+  - Streamlined interface for tool-using LLMs
+
+- 🌐 **Web Playground**
+  - Hosted via `phi.playground` for local chat interface
 
 ---
